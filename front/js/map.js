@@ -42,7 +42,7 @@ async function getDataSet(category) {
 
   const dataSet = await axios({
     method: "get", // http method
-    url: `http://13.209.27.44:3001/restaurants?category=${qs}`,
+    url: `https://www.ggolulukmap.store/restaurants?category=${qs}`,
     headers: {}, // packet header
     data: {}, // packet body
   });
